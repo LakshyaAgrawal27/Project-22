@@ -42,8 +42,9 @@ function setup() {
 
 function draw() {
   background(bgImg);
-
-  fairy.collide(star);
+  
+ 
+  star.collide(fairy);
 
   keyPressed();
   fairy.velocityX=0
